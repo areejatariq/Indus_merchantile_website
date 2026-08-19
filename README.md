@@ -1,6 +1,6 @@
-# Indus Commercial Merchants — Website
+# Indus Mercantile — Website
 
-Marketing website for **Indus Commercial Merchants** (legal entity: Indus Mercantile (Pvt) Limited), a Pakistan-based commercial import, export and freight-forwarding partner connecting China, Pakistan, the UK, the USA and Europe.
+Marketing website for **Indus Mercantile (Pvt) Limited**, a Pakistan-based commercial import, export and freight-forwarding partner connecting China, Pakistan, the UK, the USA and Europe.
 
 Built as a static, single-page site — no build step, no dependencies.
 
@@ -10,8 +10,10 @@ Built as a static, single-page site — no build step, no dependencies.
 .
 ├── index.html          # all page content/sections
 ├── assets/
-│   ├── style.css        # brand tokens + layout
-│   └── hero-trade.jpg   # hero image
+│   ├── style.css          # brand tokens + layout
+│   ├── hero-shipping.html # animated worldwide-shipping hero visual (embedded via iframe)
+│   ├── hero-trade.jpg     # unused legacy hero photo (kept for reference)
+│   └── og-image.jpg       # social share image
 └── README.md
 ```
 
@@ -21,7 +23,7 @@ Built as a static, single-page site — no build step, no dependencies.
 - Who We Are — core capabilities, who we serve, core trade lanes
 - What Importers Need Solved — the pain points this business addresses
 - End-to-End Service Offering — the 6-step process + operational support checklist
-- Why Indus Commercial Merchants — differentiators + best-fit customer types
+- Why Indus Mercantile — differentiators + best-fit customer types
 - How We Work With You — 5-step engagement model
 - Contact — direct email / phone / WhatsApp links (static, no backend)
 
