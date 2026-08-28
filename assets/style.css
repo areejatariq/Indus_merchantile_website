@@ -81,20 +81,23 @@ a { color: inherit; }
   color: inherit;
 }
 .logo-word {
+  display: block;
   font-family: var(--serif);
   font-weight: 700;
   font-size: 1.3rem;
-  color: var(--navy-900);
   line-height: 1;
+  color: var(--navy-900);
+  margin: 0;
 }
 .logo-sub {
   display: block;
   font-family: var(--sans);
   font-size: 0.56rem;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  line-height: 1;
+  letter-spacing: 0.1em;
   color: var(--teal-600);
-  margin-top: 2px;
+  margin: 3px 0 0;
 }
 .logo.on-dark .logo-word { color: #ffffff; }
 .logo.on-dark .logo-sub { color: var(--teal-500); }
